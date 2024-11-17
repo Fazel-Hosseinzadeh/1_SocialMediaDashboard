@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:200px 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 4.5fr;
+    grid-template-areas:
+    "aside header header header"
+    "aside main main main";
+}
+
+/* __________ Header __________ */
+
+.header{
+    grid-area: header;
+    background-color: #354f9c;
+    /* height: 70px; */
+}
+
+/* __________ Aside __________ */
+
+.aside{
+    grid-area: aside;
+    background-color: #997777;
+    /* height: 100x; */
+}
+
+/* __________ Main __________ */
+
+
+.main{
+    grid-area: main;
+    background-color: #afaf9a;
+}
