@@ -18,8 +18,8 @@ body {
 
 .header{
     grid-area: header;
-    background-color: #354f9c;
-    /* height: 70px; */
+    box-shadow: 0px 1px 20px 1px hwb(135 56% 43% / 0.384);
+    
 }
 
 /* __________ Aside __________ */
@@ -27,8 +27,6 @@ body {
 .aside{
     grid-area: aside;
     background-color: #997777;
-    /* height: 100x; */
-}
 
 /* __________ Main __________ */
 
