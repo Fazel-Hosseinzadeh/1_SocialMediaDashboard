@@ -28,8 +28,9 @@ body {
     grid-area: aside;
     background-color: #997777;
 
-/* __________ Main __________ */
+}
 
+/* __________ Main __________ */
 
 .main{
     grid-area: main;
