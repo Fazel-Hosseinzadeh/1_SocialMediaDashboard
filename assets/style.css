@@ -32,7 +32,11 @@ body {
 .aside{
     grid-area: aside;
     background-color: #997777;
-
+    
+    display: flex;
+    flex-direction: column;
+    
+    overflow-y: auto;
 }
 
 /* __________ Main __________ */
@@ -50,4 +54,33 @@ body {
     text-align: center;
     line-height: 2px;
     font-size: 40px;
+}
+
+/* __________ Aside LOGO __________ */
+
+.sidebar-title{
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+
+    box-shadow: 0 1px 10px 2px rgba(49, 18, 189, 0.39);
+}
+
+/* __________ Aside List Item __________ */
+
+.sidebar-list{
+    color: inherit;
+    list-style-type: none;
+    
+}
+
+.sidebar-list-item {
+    padding-top: 2rem;
+    
+}
+
+.sidebar-list-item a{
+    color: inherit;
+    text-decoration: none;
 }
